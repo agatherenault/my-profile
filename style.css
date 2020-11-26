@@ -1,0 +1,164 @@
+body {
+	background-color: rgb(226, 207, 234);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 15px;
+	background-image: url(images/fond.jpg);
+
+}
+
+
+
+#logo{
+	max-width: 30%;
+	height: auto;
+	border-width: 20px;
+	border-color: #ff006e;
+	border-style: solid;
+	box-shadow: 20px 20px 80px #fb5607;
+	border-radius: 10px;
+
+}
+
+.first_card {
+	padding: 20px;
+    background-color: #ffbe0b;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px; 
+    margin-top: 50px;
+    box-shadow: 10px 10px 40px #fb5607;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.first_card p {
+	margin-bottom: 40px;
+	font-weight: bold;
+	color: #fb5607;
+	text-shadow: 2px 2px 1px #8338ec;
+
+}
+
+
+
+h1{
+	color: #fb5607;
+	font-weight: 800;
+	letter-spacing: 10px;
+	font-size: 30px; 
+	text-align: center;
+	text-transform: uppercase;
+	font-family:'Monoton', cursive;
+	background-color: #ffbe0b;
+}
+
+h2{
+	text-align: center;
+	color:white;
+	text-shadow: 2px 2px 1px #3a86ff;
+}
+
+#yellow_shadow {
+	text-shadow: 2px 2px 1px #ffbe0b;
+}
+
+
+.purple_card{
+	background-color: #8338ec;
+	padding: 40px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	box-shadow: 10px 10px 10px #3a86ff;
+	border-radius: 10px;
+}
+
+
+
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+.orange_card {
+	background-color: #fb5607;
+	padding: 40px;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-bottom: 200px;
+	margin-top: 20px;
+	box-shadow: 10px 10px 10px #ffbe0b;
+	border-radius: 10px;
+	
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	color: #8338ec;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+a:hover {
+	color: black;
+}
+
+.btn_pink {
+	background-color: #ff006e ;
+	color: black;
+	padding: 15px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+
+}
+
+.btn_pink:hover {
+	background-color: #8338ec;
+	color: white;
+
+}
+
+.prez {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+.orange_card {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.orange_card li {
+	display: inline;
+	padding: 40px;
+	position: center;
+}
+
+.orange_card i {
+	font-size: 50px;
+	color: #ffbe0b;
+}
+
+.orange_card i:hover {
+	color: #8338ec;
+
+}
